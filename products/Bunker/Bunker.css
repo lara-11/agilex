@@ -1,0 +1,108 @@
+/* BUNKER */
+div.bunker_flex {
+  display: flex;
+  justify-content: center;
+}
+
+div.bunker-web-box1 {
+  width: 950px;
+  padding: 40px 40px 40px 40px;
+}
+
+h1.bunker-title-h1 {
+  font-weight: bold;
+  font-size: 31px;
+  text-align: left;
+  color: #1a272d;
+}
+
+p.bunker-info1 {
+  text-align: justify;
+}
+
+p.bunker-p {
+  text-align: justify;
+}
+
+div.bunker-specs-1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.bunker-specs-2 {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.bunker-specs-3 {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.bunker-web-box2 {
+  padding: 60px 50px 0px 0px;
+  width: 900px;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.bunker_flex {
+    flex-flow: wrap;
+  }
+
+  div.bunker-web-box1 {
+    padding: 20px 40px 0px 40px;
+  }
+
+  h1.bunker-title-h1 {
+    text-align: left;
+    font-size: 50px;
+    max-width: 100%;
+  }
+
+  p.bunker-p {
+    font-size: 15px;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+
+  div.bunker-web-box2 {
+    padding: 0px 100px 0px 100px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.bunker-web-box1 {
+    padding: 0px;
+  }
+
+  h1.bunker-title-h1 {
+    font-size: 8.3vw;
+    text-align: left;
+  }
+
+  p.bunker-p {
+    font-size: 14px;
+  }
+
+  p.bunker-terrain {
+    font-size: 13.5px;
+  }
+
+  p.bunker-performance {
+    font-size: 13.5px;
+  }
+
+  p.bunker-slopes {
+    font-size: 13.5px;
+  }
+
+  div.bunker-web-box2 {
+    padding: 0px 0px 10px 0px;
+  }
+
+  figure.bunker-img1 {
+    padding-top: 20px;
+  }
+}
