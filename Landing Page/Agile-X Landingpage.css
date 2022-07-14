@@ -993,7 +993,7 @@ figure.agilex-video2 {
   }
   
   img.agilex-drive-scoutmini {
-    transform: scaleX(-1);
+    /* transform: scaleX(-1); */
     width: 200px;
   }
   
