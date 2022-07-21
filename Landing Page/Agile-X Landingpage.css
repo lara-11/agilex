@@ -1765,6 +1765,29 @@ figure.agilex-video2 {
     background: #ededed;
   }
   
+  /* DESKTOP */
+@media only screen and (max-width: 2565px) {
+  div.agilex-contact-left-wrap {
+    width: auto;
+  }
+
+  img.agilex-contact-banner {
+    width: 1430px;
+  }
+
+  div.contact-info {
+    max-width: 1135px;
+  }
+
+  figure.agilex-secondimg-background {
+    width: 530px;
+  }
+
+  img.agilex-contact-img2 {
+    width: 100%;
+  }
+}
+
   /* TABLET */
   @media only screen and (max-width: 1024px) {
     div.agilex-contact-box11 {
