@@ -1,0 +1,15 @@
+/* SCOUT 2.0 */
+div.scout-2-grey-box { margin: 0px 35px 20px 35px; }
+
+div.scout-2-prev-text { margin: 0px 35px 20px 35px; }
+
+div.scout-2-banner-home { margin: 0px 35px 0px 35px; }
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.scout-2-grey-box { margin: 0px 0px 20px 0px; }
+
+  div.scout-2-prev-text { margin: 0px 0px 20px 0px; }
+
+  div.scout-2-banner-home { margin: 0px 0px 0px 0px; }
+}
