@@ -1,4 +1,33 @@
 /* BUNKER */
+div.bunker-grey-box {
+  margin: 0px 35px 20px 35px;
+}
+
+div.bunker-prev-text {
+  margin: 0px 35px 20px 35px;
+}
+
+div.bunker-banner-home {
+  margin: 0px 35px 0px 35px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.bunker-grey-box {
+      margin: 0px 0px 20px 0px;
+  }
+
+  div.bunker-prev-text {
+      margin: 0px 0px 20px 0px;
+  }
+
+  div.bunker-banner-home {
+      margin: 0px 0px 0px 0px;
+  }
+}
+
+
+/* BUNKER CUSTOM */
 div.bunker_flex {
   display: flex;
   justify-content: center;
@@ -47,62 +76,62 @@ div.bunker-web-box2 {
 /* TABLET */
 @media only screen and (max-width: 1024px) {
   div.bunker_flex {
-    flex-flow: wrap;
+      flex-flow: wrap;
   }
 
   div.bunker-web-box1 {
-    padding: 20px 40px 0px 40px;
+      padding: 20px 40px 0px 40px;
   }
 
   h1.bunker-title-h1 {
-    text-align: left;
-    font-size: 50px;
-    max-width: 100%;
+      text-align: left;
+      font-size: 50px;
+      max-width: 100%;
   }
 
   p.bunker-p {
-    font-size: 15px;
-    max-width: 100%;
-    margin-bottom: 0px;
+      font-size: 15px;
+      max-width: 100%;
+      margin-bottom: 0px;
   }
 
   div.bunker-web-box2 {
-    padding: 0px 100px 0px 100px;
+      padding: 0px 100px 0px 100px;
   }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
   div.bunker-web-box1 {
-    padding: 0px;
+      padding: 0px;
   }
 
   h1.bunker-title-h1 {
-    font-size: 8.3vw;
-    text-align: left;
+      font-size: 8.3vw;
+      text-align: left;
   }
 
   p.bunker-p {
-    font-size: 14px;
+      font-size: 14px;
   }
 
   p.bunker-terrain {
-    font-size: 13.5px;
+      font-size: 13.5px;
   }
 
   p.bunker-performance {
-    font-size: 13.5px;
+      font-size: 13.5px;
   }
 
   p.bunker-slopes {
-    font-size: 13.5px;
+      font-size: 13.5px;
   }
 
   div.bunker-web-box2 {
-    padding: 0px 0px 10px 0px;
+      padding: 0px 0px 10px 0px;
   }
 
   figure.bunker-img1 {
-    padding-top: 20px;
+      padding-top: 20px;
   }
 }
