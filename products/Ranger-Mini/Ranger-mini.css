@@ -1,179 +1,208 @@
- /* RANGER-MINI */
- div.rangermini-flex {
-    display: flex;
-    justify-content: center;
-  }
-  
-  div.rangermini-box1 {
-    width: 950px;
-    padding: 60px 0px 40px 40px;
-  }
-  
-  h1.rangermini-title-h1 {
-    font-weight: bold;
-    font-size: 45px;
-    text-align: left;
-    color: #1a272d;
-  }
-  
-  p.rangermini-p {
+   /* RANGER-MINI */
+   div.ranger-mini-grey-box {
+     margin: 0px 35px 20px 35px;
+   }
 
-    text-align: justify;
-  } 
-  
-  div.rangermini-box2 {
-    padding: 0px 50px 0px 100px;
-    width: 900px;
-  }
+   div.ranger-mini-prev-text {
+     margin: 0px 35px 20px 35px;
+   }
 
-  /* TABLET */
-  @media only screen and (max-width: 1024px) {
-    div.rangermini-flex {
-      flex-flow: wrap;
-    }
-  
-    div.rangermini-box1 {
-      padding: 20px 40px 0px 40px;
-    }
-  
-    div.rangermini-box2 {
-      padding: 0px 100px 0px 100px;
-    }
-  
-    h1.rangermini-title-h1 {
-      text-align: left;
-      font-size: 50px;
-      max-width: 100%;
-    }
-  
-    p.rangermini-p {
-      font-size: 15px;
-      max-width: 100%;
-    } 
-  }
-  
-  /* MOBILE */
-  @media only screen and (max-width: 736px) {
-    div.rangermini-box1 {
-      padding: 0px;
-    }
-  
-    div.rangermini-box2 {
-      padding: 0px 30px 20px 30px;
-    }
-  
-    h1.rangermini-title-h1 {
-      font-size: 8.8vw;
-      text-align: left;
-    }
-  
-    p.rangermini-p {
-      font-size: 14px;
-    } 
-  }
+   figure.ranger-mini-banner-home {
+     margin: 0px 35px 0px 35px;
+   }
 
- /* RANGER-MINI PT2 */
-  div.rangermini-box1-pt2 {
-    padding-top: 20px;
-    margin-bottom: 10px;
-  }
-  
-  div.rangermini-box1-5-pt2 {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-  }
-  
-  h1.rangermini-h1-pt2 {
-    max-width: 730px;
-    text-align: center;
-    font-size: 60px;
-    color: #1a272d;
-    margin: 0px 120px 10px 120px;
-  }
-  
-  /*
+   /* MOBILE */
+   @media only screen and (max-width: 736px) {
+     div.ranger-mini-grey-box {
+       margin: 0px 0px 20px 0px;
+     }
+
+     div.ranger-mini-prev-text {
+       margin: 0px 0px 20px 0px;
+     }
+
+     figure.ranger-mini-banner-home {
+       margin: 0px 0px 0px 0px;
+     }
+   }
+
+
+   /* RANGER-MINI CUSTOM */
+   div.rangermini-flex {
+     display: flex;
+     justify-content: center;
+   }
+
+   div.rangermini-box1 {
+     width: 950px;
+     padding: 60px 0px 40px 40px;
+   }
+
+   h1.rangermini-title-h1 {
+     font-weight: bold;
+     font-size: 45px;
+     text-align: left;
+     color: #1a272d;
+   }
+
+   p.rangermini-p {
+
+     text-align: justify;
+   }
+
+   div.rangermini-box2 {
+     padding: 0px 50px 0px 100px;
+     width: 900px;
+   }
+
+   /* TABLET */
+   @media only screen and (max-width: 1024px) {
+     div.rangermini-flex {
+       flex-flow: wrap;
+     }
+
+     div.rangermini-box1 {
+       padding: 20px 40px 0px 40px;
+     }
+
+     div.rangermini-box2 {
+       padding: 0px 100px 0px 100px;
+     }
+
+     h1.rangermini-title-h1 {
+       text-align: left;
+       font-size: 50px;
+       max-width: 100%;
+     }
+
+     p.rangermini-p {
+       font-size: 15px;
+       max-width: 100%;
+     }
+   }
+
+   /* MOBILE */
+   @media only screen and (max-width: 736px) {
+     div.rangermini-box1 {
+       padding: 0px;
+     }
+
+     div.rangermini-box2 {
+       padding: 0px 30px 20px 30px;
+     }
+
+     h1.rangermini-title-h1 {
+       font-size: 8.8vw;
+       text-align: left;
+     }
+
+     p.rangermini-p {
+       font-size: 14px;
+     }
+   }
+
+   /* RANGER-MINI PT2 */
+   div.rangermini-box1-pt2 {
+     padding-top: 20px;
+     margin-bottom: 10px;
+   }
+
+   div.rangermini-box1-5-pt2 {
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+   }
+
+   h1.rangermini-h1-pt2 {
+     max-width: 730px;
+     text-align: center;
+     font-size: 60px;
+     color: #1a272d;
+     margin: 0px 120px 10px 120px;
+   }
+
+   /*
   div.xseries-customize-line {
     width: 400px;
     height: 2px;
     background: #1a272d;
     margin: 10px 0px 15px 0px;
   } */
-  
-  p.rangermini-p-pt2 {
-    max-width: 730px;
-    text-align: center;
-    margin: 0px 120px 10px 120px;
-  }
-  
-  figure.rangermini-img2 {
-    text-align: center;
-    margin: 0px 120px 0px 120px;
-  }
-  
-  img.rangermini-img-pt2 {
-    width: 1500px;
-  }
-  
-  /* TABLET */
-  @media only screen and (max-width: 1024px) {
-    div.rangermini-box1-pt2 {
-      padding: 0px;
-    }
-  
-    h1.rangermini-h1-pt2 {
-      margin: 0px 100px 0px 100px;
-    }
-  
-    /*
+
+   p.rangermini-p-pt2 {
+     max-width: 730px;
+     text-align: center;
+     margin: 0px 120px 10px 120px;
+   }
+
+   figure.rangermini-img2 {
+     text-align: center;
+     margin: 0px 120px 0px 120px;
+   }
+
+   img.rangermini-img-pt2 {
+     width: 1500px;
+   }
+
+   /* TABLET */
+   @media only screen and (max-width: 1024px) {
+     div.rangermini-box1-pt2 {
+       padding: 0px;
+     }
+
+     h1.rangermini-h1-pt2 {
+       margin: 0px 100px 0px 100px;
+     }
+
+     /*
     div.xseries-customize-line {
         width: 350px;
       } */
 
-    p.rangermini-p-pt2 {
-      margin: 0px 100px 30px 100px;
-    }
-  
-    figure.rangermini-img2 {
-      margin: 0px 100px 0px 100px;
-    }
-  }
-  
-  /* MOBILE */
-  @media only screen and (max-width: 736px) {
-    div.rangermini-box1-pt2 {
-        padding: 0px;
-        margin-bottom: 0px;
-      }
+     p.rangermini-p-pt2 {
+       margin: 0px 100px 30px 100px;
+     }
 
-      div.rangermini-box1-5-pt2 {
-        flex-flow: wrap;
-      }
+     figure.rangermini-img2 {
+       margin: 0px 100px 0px 100px;
+     }
+   }
 
-      h1.rangermini-h1-pt2 {
-        font-size: 40px;
-        text-align: left;
-        margin: 0px;
-      }
+   /* MOBILE */
+   @media only screen and (max-width: 736px) {
+     div.rangermini-box1-pt2 {
+       padding: 0px;
+       margin-bottom: 0px;
+     }
 
-      /*
+     div.rangermini-box1-5-pt2 {
+       flex-flow: wrap;
+     }
+
+     h1.rangermini-h1-pt2 {
+       font-size: 40px;
+       text-align: left;
+       margin: 0px;
+     }
+
+     /*
       div.xseries-customize-line {
         width: 250px;
       } */
 
-      p.rangermini-p-pt2 {
-          font-size: 14px;
-          text-align: left;
-          margin: 0px;
-      }
+     p.rangermini-p-pt2 {
+       font-size: 14px;
+       text-align: left;
+       margin: 0px;
+     }
 
-      p.rangermini-p2-pt2 {
-        font-size: 14px;
-        text-align: left;
-        margin: 0px;
-      }
+     p.rangermini-p2-pt2 {
+       font-size: 14px;
+       text-align: left;
+       margin: 0px;
+     }
 
-      figure.rangermini-img2 {
-        margin: 0px 30px 0px 30px;
-      }
-  }
+     figure.rangermini-img2 {
+       margin: 0px 30px 0px 30px;
+     }
+   }
