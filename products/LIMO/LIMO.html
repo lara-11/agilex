@@ -1,4 +1,10 @@
-<p class="limo-grey-box" style="text-align: justify; margin: 0px 35px 20px 35px;">LIMO is an innovative multi-modal, compact, and customizable mobile robot with AI modules and open-source ROS packages which enables education, researchers, enthusiasts to program and develop AI robots easier. The LIMO has four steering modes including Omni-directional steering, tracked steering, Ackermann and four-wheel differential, in line with strong perception sensors and the Nvidia Jetson Nano making it an excellent platform to develop indoor and outdoor applications while learning ROS. A beginner-friendly multi-functional table and rich ROS packages are provided allowing users to easily develop and validate new functions of AI and autonomous driving applications.
+<p class="limo-grey-box" style="text-align: justify; margin: 0px 35px 20px 35px;">LIMO is an innovative multi-modal,
+    compact, and customizable mobile robot with AI modules and open-source ROS packages which enables education,
+    researchers, enthusiasts to program and develop AI robots easier. The LIMO has four steering modes including
+    Omni-directional steering, tracked steering, Ackermann and four-wheel differential, in line with strong perception
+    sensors and the Nvidia Jetson Nano making it an excellent platform to develop indoor and outdoor applications while
+    learning ROS. A beginner-friendly multi-functional table and rich ROS packages are provided allowing users to easily
+    develop and validate new functions of AI and autonomous driving applications.
 </p>
 <br>
 <div class="limo-banner-home">
@@ -6,25 +12,30 @@
 </div>
 
 
-<p>    <!--LIMO-->
+<p>
+    <!--LIMO-->
 </p>
 <div class="limo-container">
-        <div class="limo-flex">                 
+    <div class="limo-flex">
 
-            <div class="limo-box1">
-                <h1 class="limo-header">App Compatible</h1>
+        <div class="limo-box1">
+            <h1 class="limo-header">App Compatible</h1>
 
-                <p class="limo-info">The LIMO app is a brand new feature implemented in this ROS technology that will replace the remote controller. Enabling it to be more flexible and inovative. This multi-modal motion control is bluetooth compatible and allows you to control all four-wheel differential modes including omni-directional steering, tracked steering, & ackermann. The strong perception sensors & Nvidia Jetson Nano also makes it perfect for indoor & outdoor usage.</p>  
-            </div>
-
-            <div class="limo-box2">
-                <figure class="limo-img">
-                    <img src="/shared/images/uploads/LIMO-app.png" class="app-img" data-image="0">
-                </figure>
-            </div>
-  
+            <p class="limo-info">The LIMO app is a brand new feature implemented in this ROS technology that will
+                replace the remote controller. Enabling it to be more flexible and inovative. This multi-modal motion
+                control is bluetooth compatible and allows you to control all four-wheel differential modes including
+                omni-directional steering, tracked steering, & ackermann. The strong perception sensors & Nvidia Jetson
+                Nano also makes it perfect for indoor & outdoor usage.</p>
         </div>
+
+        <div class="limo-box2">
+            <figure class="limo-img">
+                <img src="/shared/images/uploads/LIMO-app.png" class="app-img" data-image="0">
+            </figure>
+        </div>
+
     </div>
+</div>
 <p><br><br></p>
 <div style="margin: 0px 35px 20px 35px;">
     <img src="/Shared/Agilex/limodrivemodes3.png" data-image="0">
@@ -33,3 +44,104 @@
 <p></p>
 <p></p>
 <p></p>
+
+
+
+<style>
+    /* LIMO */
+    p.limo-grey-box {
+        margin: 0px 35px 20px 35px;
+    }
+
+    div.limo-banner-home {
+        margin: 0px 35px 0px 35px;
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        div.tracer-prev-text {
+            margin: 0px 0px 20px 0px;
+        }
+
+        div.limo-banner-home {
+            margin: 0px 0px 0px 0px;
+        }
+    }
+
+
+    /* LIMO CUSTOM */
+    div.limo-flex {
+        display: flex;
+        justify-content: center;
+        margin: 35px 35px 0px 35px;
+    }
+
+    div.limo-box1 {
+        width: 800px;
+        max-width: 100%;
+        margin-right: 60px;
+        margin-top: 55px;
+    }
+
+    h1.limo-header {
+        font-size: 50px;
+    }
+
+    p.limo-info {
+        text-align: justify;
+    }
+
+    div.limo-box2 {
+        width: 800px;
+        max-width: 100%;
+    }
+
+    figure.limo-img {
+        width: 100%;
+        max-width: 820px;
+    }
+
+    @media only screen and (max-width: 1419px) {
+        div.limo-box1 {
+            margin-top: 0px;
+        }
+
+        h1.limo-header {
+            margin-top: 0px;
+        }
+    }
+
+    /* TABLET */
+    @media only screen and (max-width: 1024px) {
+        div.limo-flex {
+            flex-flow: wrap;
+        }
+
+        h1.limo-header {
+            text-align: center;
+            font-size: 45px;
+        }
+
+        div.limo-box1 {
+            margin-right: 0px;
+        }
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 667px) {
+        div.limo-flex {
+            display: block;
+            justify-content: center;
+            text-align: left;
+        }
+
+        h1.limo-header {
+            text-align: center;
+            font-size: 34px;
+        }
+
+        p.limo-info {
+            font-size: 13.5px;
+        }
+    }
+</style>

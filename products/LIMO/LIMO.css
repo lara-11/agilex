@@ -1,4 +1,25 @@
 /* LIMO */
+p.limo-grey-box {
+  margin: 0px 35px 20px 35px;
+}
+
+div.limo-banner-home {
+  margin: 0px 35px 0px 35px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.tracer-prev-text {
+    margin: 0px 0px 20px 0px;
+  }
+
+  div.limo-banner-home {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+
+/* LIMO CUSTOM */
 div.limo-flex {
   display: flex;
   justify-content: center;
@@ -13,7 +34,7 @@ div.limo-box1 {
 }
 
 h1.limo-header {
-  font-size: 50px; 
+  font-size: 50px;
 }
 
 p.limo-info {
@@ -36,7 +57,7 @@ figure.limo-img {
   }
 
   h1.limo-header {
-margin-top: 0px; 
+    margin-top: 0px;
   }
 }
 
@@ -48,7 +69,7 @@ margin-top: 0px;
 
   h1.limo-header {
     text-align: center;
-    font-size: 45px; 
+    font-size: 45px;
   }
 
   div.limo-box1 {
@@ -57,7 +78,7 @@ margin-top: 0px;
 }
 
 /* MOBILE */
-@media only screen and (max-width: 667px){
+@media only screen and (max-width: 667px) {
   div.limo-flex {
     display: block;
     justify-content: center;
@@ -66,7 +87,7 @@ margin-top: 0px;
 
   h1.limo-header {
     text-align: center;
-    font-size: 34px; 
+    font-size: 34px;
   }
 
   p.limo-info {
