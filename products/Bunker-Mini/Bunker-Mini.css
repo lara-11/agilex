@@ -116,7 +116,7 @@ div.bunker-mini-box2 {
   }
 
   h1.bunker-mini-h1 {
-    font-size: 8.3vw;
+    font-size: 7.3vw;
     text-align: left;
   }
 
@@ -201,7 +201,7 @@ div.bunker-mini2-box2 {
 
 /* TABLET */
 @media only screen and (max-width: 1024px) {
-  div.bunker-mini2-flex2 {
+  div.bunker-mini2-flex2, div.bunker-mini-flex2 {
     flex-flow: wrap;
   }
 
@@ -233,7 +233,7 @@ div.bunker-mini2-box2 {
   }
 
   h1.bunker-mini2-h1 {
-    font-size: 8.3vw;
+    font-size: 4.9vw;
     text-align: left;
   }
 
