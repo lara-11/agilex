@@ -1,0 +1,95 @@
+<!--LIMO LANDING PAGE-->
+<div class="limo-justify-container">
+    <!--SECTION 1-->
+    <div class="limo-container1">
+        <figure class="limo-video1">
+            <video width="100%" autoplay="autoplay" loop="loop" muted="muted">
+                <source src="/Shared/LoCoBot/locobot_header.mp4" type="video/mp4">
+            </video>
+        </figure>
+
+        <figure class="limo-video2">
+            <video width="100%" autoplay="autoplay" loop="loop" muted="muted">
+                <source src="/Shared/LoCoBot/locobot_header_mobile.mp4" type="video/mp4">
+            </video>
+        </figure>
+    </div>
+
+</div>
+
+
+<style>
+    .con-form-inner .Control {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .con-form-cell {
+        width: 49%;
+        margin-bottom: 10px;
+    }
+
+    .con-form-inner {
+        max-width: 500px;
+    }
+
+    .con-form-inner .Control .con-form-cell:nth-child(n + 3) {
+        width: 100% !important;
+    }
+
+    .con-form-field input {
+        width: 100%;
+    }
+
+    .con-form-inner .Control .con-form-cell:first-child {
+        margin-right: 2%;
+    }
+
+    .con-form-field ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .con-form-field ul li {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .con-form-field ul li input {
+        width: 20px;
+    }
+
+    .con-form-field ul li label {
+        margin-bottom: 0;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .con-form-inner input[type="submit"] {
+        margin-bottom: 20px;
+    }
+</style>
+
+
+<style>
+    /* LIMO LANDING PAGE */
+    /* SECTION 1 */
+    figure.limo-video2 {
+        display: none;
+    }
+
+    /* MOBILE */
+    @media only screen and (max-width: 736px) {
+        figure.limo-video1 {
+            display: none;
+        }
+
+        figure.limo-video2 {
+            display: block;
+        }
+    }
+</style>

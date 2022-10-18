@@ -1,0 +1,16 @@
+/* LIMO LANDING PAGE */
+/* SECTION 1 */
+figure.limo-video2 {
+    display: none;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    figure.limo-video1 {
+        display: none;
+    }
+
+    figure.limo-video2 {
+        display: block;
+    }
+}
