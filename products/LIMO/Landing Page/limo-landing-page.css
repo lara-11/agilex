@@ -565,213 +565,203 @@
 
     /* SECTION 6 */
     div.limo-container6 {
-        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
     }
 
-    div.limo-sec6-box1-hidden {
+    div.limo-sec6-box1 {
+        max-width: 951.3px;
+    }
+
+    figure.limo-sec6-imgs {
+        max-width: 770px;
+    }
+
+    h1.limo-sec6-h1 {
+        font-size: 62px;
+        color: #1a272d;
+        margin: 0px 0px 0px 0px;
+        padding-left: 200px;
+    }
+
+    div.limo-sec6-line {
+        height: 2px;
+        background: #1a272d;
+        margin: 10px 875px 0px 200px;
+    }
+
+    /* Carousel edits starts here */
+    .carousel-indicators li {
+        border-color: none;
+        background: #ccc;
+    }
+
+    .carousel-indicators .active {
+        background: #444;
+    }
+
+    /* This is the box that makes the arrows function */
+    .carousel-control {
+        opacity: none;
+        width: 0%;
+    }
+
+    .carousel-indicators {
+        bottom: 0px;
+    }
+
+    div.limo-sec6-content {
+        color: black;
+        text-shadow: none;
+        top: 50px;
+        left: 200px;
+        padding-top: 0px
+    }
+
+    p.limo-sec6-ca-h1 {
+        text-align: left;
+        font-size: 25px;
+    }
+
+    a.limo-sec6-link {
+        margin-bottom: 5px;
+    }
+
+    /* This edits the gradient on top of arrows left */
+    .carousel-control.left {
+        background-image: none;
+    }
+
+    /* Hides Glyphicon */
+    .glyphicon-chevron-left:before {
+        color: black;
+        content: "<";
         display: none;
-        width: 450px;
-        padding: 160px 0px 60px 0px;
+    }
+
+    /* This edits the gradient on top of arrows right */
+    .carousel-control.right {
+        background-image: none;
+    }
+
+    /* Hides Glyphicon */
+    .glyphicon-chevron-right:before {
+        color: black;
+        background-image: none;
+        content: ">";
+        display: none;
+    }
+
+    /* Arrowsa for carousel */
+    .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .left-1 {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .right-1 {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    i.arrow.right-1 {
+        cursor: pointer;
+    }
+
+    span#carousel-left-arrow {
         margin-left: 120px;
     }
 
-    h1.limo-sec6-supports2-h1 {
-        display: none;
+    span#carousel-right-arrow {
+        margin-right: 120px;
     }
 
-    div.limo-sec6-line2 {
-        display: none;
-        height: 2px;
-        background: #1a272d;
-        margin: 15px 50px 35px 50px;
-    }
-
-    div.limo-sec6-box1-visible {
-        width: 450px;
-        padding: 40px 0px 0px 0px;
-        margin: auto;
-    }
-
-    div.limo-sec6-flex-box2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    div.locobot-sec6-box2 {
-        width: 500px;
-        padding: 30px 0px 60px 0px;
-    }
-
-    h1.locobot-sec6-supports1-h1 {
-        font-size: 60px;
-        text-align: center;
-        color: #1a272d;
-        margin: 0px 0px 0px 0px;
-    }
-
-    div.locobot-sec6-line {
-        height: 2px;
-        background: #1a272d;
-        margin: 15px 50px 35px 50px;
-    }
-
-    figure.locobot-sec6-img2 {
-        text-align: center;
-        margin: 15px 40px 0px 40px;
-    }
-
-    img.locobot-img-scr2 {
-        width: 350px;
-    }
-
-    h1.locobot-sec3-middle-h1 {
-        text-align: center;
-        font-size: 20px;
-        color: #1a272d;
-        margin: 30px 40px 10px 40px;
-    }
-
-    p.locobot-sec3-middle-p {
-        font-size: 14.5px;
-        text-align: center;
-        margin: 0px 40px 0px 40px;
-    }
-
-    div.locobot-sec3-box3 {
-        width: 500px;
-        padding: 30px 0px 60px 0px;
-    }
-
-    figure.locobot-sec3-img3 {
-        text-align: center;
-        margin: 0px 40px 0px 40px;
-    }
-
-    img.locobot-img-scr3 {
-        width: 200px;
-    }
-
-    h1.locobot-sec3-right-h1 {
-        text-align: center;
-        font-size: 20px;
-        color: #1a272d;
-        margin: 30px 40px 10px 40px;
-    }
-
-    p.locobot-sec3-right-p {
-        font-size: 14.5px;
-        text-align: center;
-        margin: 0px 40px 0px 40px;
+    figure.xseries-contact-background2 {
+        background: #ededed;
     }
 
     /* TABLET */
     @media only screen and (max-width: 1024px) {
-        div.limo-sec6-box1-hidden {
-            padding: 125px 0px 40px 0px;
-            margin: 0px 0px 0px 80px;
+
+        /* Revise later, doesnt want to apply */
+        div.limo-container6 {
+            padding: 40px 0px 40px 0px;
         }
 
-        h1.locobot-sec6-supports1-h1 {
+        div.limo-sec6-content {
+            top: 0px;
+        }
+
+        h1.limo-sec6-h1 {
             font-size: 5vw;
-            margin-top: 0px;
         }
 
-        div.locobot-sec6-line {
-            margin: 15px 0px 35px 0px;
+        div.limo-sec6-line {
+            width: auto;
+            margin: 10px 500px 0px 200px;
         }
 
-        div.locobot-sec6-box2 {
-            margin: 0px 25px 0px 25px;
-            padding: 30px 0px 40px 0px;
+        p.limo-sec6-ca-h1 {
+            font-size: 2.3vw;
         }
 
-        figure.locobot-sec6-img2 {
-            margin: 0px 0px 0px 0px;
-        }
-
-        h1.locobot-sec3-middle-h1 {
-            margin: 30px 0px 10px 0px;
-        }
-
-        p.locobot-sec3-middle-p {
-            font-size: 13.5px;
-            margin: 0px 0px 0px 0px;
-        }
-
-        div.locobot-sec3-box3 {
-            margin-right: 80px;
-            padding: 115px 0px 40px 0px;
-        }
-
-        figure.locobot-sec3-img3 {
-            margin: 0px 0px 0px 0px;
-        }
-
-        h1.locobot-sec3-right-h1 {
-            margin: 30px 0px 10px 0px;
-        }
-
-        p.locobot-sec3-right-p {
-            font-size: 13.5px;
-            margin: 0px 0px 0px 0px;
+        a.limo-sec6-link {
+            font-size: 2vw;
         }
     }
 
     /* MOBILE */
     @media only screen and (max-width: 736px) {
         div.limo-container6 {
-            display: block;
-            justify-content: center;
-            margin-bottom: 10px;
+            padding: 15px 0px 50px 0px;
         }
 
-        div.limo-sec6-box1-hidden {
-            display: block;
-            width: auto;
-            margin: 0px 30px 0px 30px;
-            padding: 20px 0px 20px 0px;
+        h1.limo-sec6-h1 {
+            padding: 0px 0px 0px 40px;
         }
 
-        div.locobot-sec6-box2 {
-            width: auto;
-            margin: 0px 30px 0px 30px;
-            padding: 0px 0px 20px 0px;
+        div.limo-sec6-line {
+            margin: 0px 300px 0px 40px;
         }
 
-        p.locobot-sec3-middle-p {
-            font-size: 14px;
-            margin: 0px 0px 0px 0px;
+        div.limo-sec6-content {
+            left: 40px;
+            padding-top: 5px;
         }
 
-        div.locobot-sec3-box3 {
-            width: auto;
-            margin: 0px 30px 0px 30px;
-            padding: 0px 0px 30px 0px;
+        span#carousel-left-arrow {
+            left: 0px;
+            margin-left: 20px;
         }
 
-        p.locobot-sec3-right-p {
-            font-size: 14px;
-            margin: 0px 0px 0px 0px;
+        span#carousel-right-arrow {
+            margin-right: 20px;
         }
 
-        h1.locobot-sec6-supports1-h1 {
-            display: none;
+        .carousel-indicators {
+            top: 140px;
         }
 
-        div.locobot-sec6-line {
-            display: none;
+        p.limo-sec6-ca-h1 {
+            font-size: 17px;
+            margin: 0px 0px 5px 0px;
+            height: 25px;
         }
 
-        h1.limo-sec6-supports2-h1 {
-            display: block;
-            text-align: center;
-            font-size: 45px;
-            margin: 0px 0px 0px 0px;
+        a.limo-sec6-link {
+            font-size: 15px;
+            margin: 5px 50px 0px 0px;
         }
 
-        div.limo-sec6-line2 {
-            display: block;
-            margin: 10px 70px 25px 70px;
+        img.xseries-models-img-all {
+            margin-left: 30px;
         }
     }
 
@@ -1264,7 +1254,7 @@
     }
 
     /* SECTION 11 */
-    div.limo-container11 {
+    div.limo-carousel-container1 {
         display: flex;
         margin-top: 40px;
         justify-content: center;
@@ -1391,7 +1381,7 @@
 
     /* TABLET */
     @media only screen and (max-width: 1024px) {
-        div.limo-container11 {
+        div.limo-carousel-container1 {
             flex-flow: wrap;
             justify-content: center;
             margin-top: 0px;
@@ -1412,7 +1402,7 @@
 
     /* MOBILE */
     @media only screen and (max-width: 736px) {
-        div.limo-container11 {
+        div.limo-carousel-container1 {
             flex-flow: wrap;
             margin-bottom: 0PX;
         }
