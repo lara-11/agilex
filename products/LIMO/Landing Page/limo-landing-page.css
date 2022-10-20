@@ -568,27 +568,35 @@
         display: flex;
         justify-content: center;
         padding-top: 50px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding-bottom: 60px;
     }
 
     div.limo-sec6-box1 {
-        max-width: 951.3px;
+        max-width: 700px;
+        padding: 0px 50px 0px 0px;
     }
 
+    div.limo-sec6-box2 {
+        padding: 40px 100px 40px 25px;
+    }
+    
     figure.limo-sec6-imgs {
         max-width: 770px;
     }
 
     h1.limo-sec6-h1 {
-        font-size: 62px;
+        font-size: 50px;
         color: #1a272d;
         margin: 0px 0px 0px 0px;
-        padding-left: 200px;
+        text-align: center;
     }
 
     div.limo-sec6-line {
         height: 2px;
         background: #1a272d;
-        margin: 10px 875px 0px 200px;
+        margin: 10px 200px 0px 200px;
     }
 
     /* Carousel edits starts here */
@@ -676,11 +684,11 @@
     }
 
     span#carousel-left-arrow {
-        margin-left: 120px;
+        margin-left: 70px;
     }
 
     span#carousel-right-arrow {
-        margin-right: 120px;
+        margin-right: 70px;
     }
 
     figure.xseries-contact-background2 {
@@ -904,6 +912,7 @@
     div.limo-sec8-box1 {
         margin-left: 120px;
         padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     figure.limo-sec8-img {
@@ -1061,9 +1070,8 @@
 
     div.limo-sec9-box2 {
         width: 555px;
-        margin-left: 100px;
-        margin-right: 120px;
-        padding: 80px 0px 60px 0px;
+        margin: auto;
+        padding: 60px 0px 60px 0px;
     }
 
     img.limo-sec9-img-src {
@@ -1161,7 +1169,7 @@
 
     /* SECTION 10 */
     div.dobot-applications-box1 {
-        padding: 50px 0px 50px 0px;
+        padding: 50px 0px 10px 0px;
     }
 
     div.dobot-applications-box1-5 {
@@ -1182,7 +1190,7 @@
         width: 400px;
         height: 2px;
         background: #1a272d;
-        margin: 10px 0px 15px 0px;
+        margin: 10px 0px 0px 0px;
     }
 
     p.dobot-applications-p {
