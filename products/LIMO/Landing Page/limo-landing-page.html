@@ -623,14 +623,9 @@ div.limo-sec3-line2 {
     margin: 15px 50px 35px 50px;
 }
 
-div.limo-sec3-box1-visible {
-    width: 450px;
-    padding: 40px 0px 0px 0px;
-    margin: auto;
-}
-
 div.limo-sec3-flex-box2 {
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
 }
 
@@ -718,8 +713,8 @@ p.limo-sec3-right-p {
     }
 
     div.limo-sec3-box2 {
-        margin: 0px 25px 0px 25px;
-        padding: 30px 0px 40px 0px;
+        margin: 0px 15px 0px 30px;
+        padding: 10px 0px 40px 0px;
     }
 
     figure.limo-sec3-img1 {
@@ -736,8 +731,8 @@ p.limo-sec3-right-p {
     }
 
     div.limo-sec3-box3 {
-        margin-right: 80px;
-        padding: 115px 0px 40px 0px;
+        margin: 0px 30px 0px 15px;
+        padding: 0px 0px 40px 0px;
     }
 
     figure.limo-sec3-img2 {
@@ -1199,15 +1194,45 @@ i.arrow.right-1 {
 }
 
 span#carousel-left-arrow {
-    margin-left: 70px;
+    margin-left: 50px;
+    margin-top: -50px;
 }
 
 span#carousel-right-arrow {
-    margin-right: 70px;
+    margin-right: 50px;
+    margin-top: -50px;
 }
 
 figure.xseries-contact-background2 {
     background: #ededed;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+    div.limo-container6 {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    div.limo-sec6-box2 {
+        padding-bottom: 0px;
+    }
+
+    div.limo-sec6-line {
+        margin: 10px 65px 15px 65px;
+    }
+
+    span#carousel-left-arrow {
+        margin-left: 35px;
+        margin-top: -80px;
+    }
+
+    span#carousel-right-arrow {
+        margin-right: 35px;
+        margin-top: -80px;
+    }
 }
 
 /* TABLET */
@@ -1215,6 +1240,7 @@ figure.xseries-contact-background2 {
 
     /* Revise later, doesnt want to apply */
     div.limo-container6 {
+        flex-flow: wrap;
         padding: 40px 0px 40px 0px;
     }
 
