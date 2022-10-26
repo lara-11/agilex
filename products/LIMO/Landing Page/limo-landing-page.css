@@ -312,7 +312,7 @@ p.limo-sec3-right-p {
     div.limo-sec3-box2 {
         width: auto;
         margin: 0px 30px 0px 30px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 30px 0px;
     }
 
     p.limo-sec3-left-p {
@@ -579,7 +579,7 @@ p.limo-sec5-p {
 /* MOBILE */
 @media only screen and (max-width: 736px) {
     div.limo-sec5-box1 {
-        padding: 30px 0px 20px 0px;
+        padding: 30px 30px 20px 30px;
     }
 
     div.limo-sec5-box2 {
@@ -589,16 +589,16 @@ p.limo-sec5-p {
     h1.limo-sec5-h1 {
         font-size: 40px;
         text-align: left;
-        margin: 0px 30px 10px 30px;
+        margin: 0px 0px 10px 0px;
     }
 
     div.limo-sec5-line {
-        margin: 10px 200px 15px 30px;
+        margin: 10px 200px 15px 0px;
     }
 
     p.limo-sec5-p {
         font-size: 14px;
-        margin: 0px 30px 10px 30px;
+        margin: 0px 0px 10px 0px;
     }
 
     img.limo-sec5-gif {
@@ -850,7 +850,6 @@ figure.xseries-contact-background2 {
 
     p.limo-sec6-ca-h1 {
         font-size: 15.5px;
-        padding-bottom: 20px;
     }
 
     a.limo-sec6-link {
