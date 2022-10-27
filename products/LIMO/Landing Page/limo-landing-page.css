@@ -13,7 +13,7 @@
        figure.limo-video2 {
            display: block;
        }
-   } 
+   }
 
    /* SECTION 2 */
    div.limo-container2 {
@@ -383,6 +383,8 @@
 
    div.limo-sec4-box2 {
        padding: 80px 120px 60px 50px;
+       margin-top: auto;
+       margin-bottom: auto;
    }
 
    h1.limo-sec4-h1 {
@@ -508,6 +510,8 @@
    }
 
    div.limo-sec5-box1 {
+       margin-top: auto;
+       margin-bottom: auto;
        padding: 115px 50px 100px 120px;
    }
 
@@ -1041,6 +1045,8 @@
 
    div.limo-sec8-box2 {
        width: 951.3px;
+       margin-top: auto;
+       margin-bottom: auto;
        padding: 80px 0px 60px 0px;
    }
 
@@ -1132,7 +1138,7 @@
        }
 
        h1.limo-sec8-h1 {
-           font-size: 35px;
+           font-size: 34px;
            text-align: left;
            margin: 0px 30px 0px 30px;
        }
@@ -1493,8 +1499,12 @@ img.limo-sec9-img-src {
            padding: 30px 0px 40px 0px;
        }
 
+       div.limo-sec10-box1 {
+        padding: 30px 30px 20px 30px;
+    }
+
        h1.limo-sec10-h1 {
-           margin: 0px 100px 0px 100px;
+           margin: 0px 50px 0px 50px;
        }
 
        div.limo-sec10-line {
@@ -1502,7 +1512,8 @@ img.limo-sec9-img-src {
        }
 
        p.limo-sec10-p {
-           margin: 0px 100px 0px 100px;
+        max-width: 100%;
+           margin: 0px 50px 0px 50px;
        }
 
        figure.limo-sec10-img-container {
@@ -1510,8 +1521,8 @@ img.limo-sec9-img-src {
        }
 
        div.limo-sec10-box2 {
-        padding-bottom: 40px;
-    }
+           padding-bottom: 40px;
+       }
    }
 
    /* MOBILE */
@@ -1522,7 +1533,7 @@ img.limo-sec9-img-src {
 
        h1.limo-sec10-h1 {
            font-size: 40px;
-           margin: 0px 30px 0px 30px;
+           margin: 0px 0px 0px 0px;
        }
 
        div.limo-sec10-line {
@@ -1530,12 +1541,17 @@ img.limo-sec9-img-src {
        }
 
        p.limo-sec10-p {
-           font-size: 14px;
-           margin: 0px 30px 20px 30px;
+           font-size: 13px;
+           margin: 0px 0px 10px 0px;
        }
 
        figure.limo-sec10-img-container {
            margin: 0px 30px 0px 30px;
+       }
+
+       div.limo-sec10-box2 {
+           padding-left: 30px;
+           padding-right: 30px;
        }
    }
 
