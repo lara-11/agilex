@@ -13,7 +13,7 @@
        figure.limo-video2 {
            display: block;
        }
-   }
+   } 
 
    /* SECTION 2 */
    div.limo-container2 {
@@ -159,6 +159,10 @@
        margin-bottom: 10px;
    }
 
+   div.limo-sec3-box1-visible {
+       padding-top: 40px;
+   }
+
    div.limo-sec3-box1-hidden {
        display: none;
        width: 450px;
@@ -185,7 +189,7 @@
 
    div.limo-sec3-box2 {
        width: 500px;
-       padding: 30px 0px 60px 0px;
+       padding: 30px 0px 40px 0px;
    }
 
    h1.limo-sec3-supports1-h1 {
@@ -229,7 +233,7 @@
 
    div.limo-sec3-box3 {
        width: 500px;
-       padding: 30px 0px 60px 0px;
+       padding: 30px 0px 40px 0px;
    }
 
    figure.limo-sec3-img2 {
@@ -1041,7 +1045,7 @@
    }
 
    h1.limo-sec8-h1 {
-       font-size: 55px;
+       font-size: 57px;
        color: #1a272d;
        margin: 0px 120px 0px 120px;
    }
@@ -1145,7 +1149,7 @@
 
        figure.limo-sec8-img {
            max-width: 350px;
-           margin: 0px 30px 0px 30px;
+           margin: 0px 30px 30px 30px;
        }
    }
 
@@ -1205,7 +1209,7 @@
 
        div.limo-sec9-box1 {
            width: 700px;
-           padding: 40px 0px 20px 0px;
+           padding: 40px 0px 0px 0px;
        }
 
        div.limo-sec9-box2 {
@@ -1425,9 +1429,9 @@ img.limo-sec9-img-src {
    }
 
    div.limo-sec10-box1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 50px 120px 0px 50px;
+       margin-top: auto;
+       margin-bottom: auto;
+       padding: 50px 120px 0px 50px;
    }
 
    h1.limo-sec10-h1 {
@@ -1464,6 +1468,25 @@ img.limo-sec9-img-src {
        padding-right: 50px;
    }
 
+   /* RESPONSIVE */
+   @media only screen and (max-width: 1250px) {
+       div.limo-container10 {
+           flex-flow: wrap;
+       }
+
+       h1.limo-sec10-h1 {
+           margin-top: 0px;
+       }
+
+       div.limo-sec10-box1 {
+           padding: 30px 50px 20px 50px;
+       }
+
+       div.limo-sec10-box2 {
+           padding-left: 50px;
+       }
+   }
+
    /* TABLET */
    @media only screen and (max-width: 1024px) {
        div.dobot-applications-box1 {
@@ -1485,6 +1508,10 @@ img.limo-sec9-img-src {
        figure.limo-sec10-img-container {
            margin: 0px 100px 0px 100px;
        }
+
+       div.limo-sec10-box2 {
+        padding-bottom: 40px;
+    }
    }
 
    /* MOBILE */
