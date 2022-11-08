@@ -1,5 +1,5 @@
 /* AGILE-X LANDING PAGE */
-/* AGILE-X VIDEO */
+/* SECTION 1 */
 figure.agilex-video2 {
   display: none;
 }
@@ -15,7 +15,7 @@ figure.agilex-video2 {
   }
 }
 
-/* AGILE-X POWERED */
+/* SECTION 2 */
 div.agilex-flex-container2 {
   display: flex;
   justify-content: center;
@@ -124,7 +124,7 @@ p.agile-powered-p {
   }
 }
 
-/* AGILE-X SUPPORTS */
+/* SECTION 3 */
 div.agilex-flex-container3 {
   display: flex;
   justify-content: center;
@@ -366,7 +366,7 @@ p.agilex-supports3-p {
   }
 }
 
-/* AGILE-X DEVELOPMENT */
+/* SECTION 4 */
 div.agilex-flex-container4 {
   display: flex;
   justify-content: center;
@@ -606,7 +606,7 @@ i.arrow.right-2 {
   }
 }
 
-/* AGILE-X SOURCE */
+/* SECTION 5 */
 div.agilex-flex-container5 {
   display: flex;
   justify-content: center;
@@ -712,7 +712,7 @@ div.agilex-source-box2 {
   }
 }
 
-/* AGILE-X KITS */
+/* SECTION 6 */
 div.agilex-flex-container6 {
   display: flex;
   justify-content: center;
@@ -827,7 +827,7 @@ a.agilex-kits-link {
   }
 }
 
-/* AGILE-X APPLICATION */
+/* SECTION 7 */
 div.agilex-flex-container7 {
   display: flex;
   justify-content: center;
@@ -945,7 +945,7 @@ a.agilex-application-link {
   }
 }
 
-/* AGILE-X DRIVE */
+/* SECTION 8 */
 h1.agilex-drive-title-h1 {
   font-size: 60px;
   text-align: center;
@@ -1255,7 +1255,7 @@ p.agilex-drive4-p {
   }
 }
 
-/* AGILE-X VSLAM */
+/* SECTION 9 */
 div.agilex-flex-container9 {
   display: flex;
   justify-content: center;
@@ -1363,7 +1363,7 @@ p.agilex-vslam-p {
   }
 }
 
-/* AGILE-X MODELS */
+/* SECTION 10 */
 /* Exclusive edits for carousel mobile   
 div.agilex-flex-container10 {
 flex-wrap: wrap-reverse;
@@ -1741,7 +1741,7 @@ img.agilex-models-img-2 {
   }
 }
 
-/* AGILE-X CONTACT */
+/* SECTION 11 */
 div.agilex-contact-box11 {
   display: flex;
   margin-top: 40px;
