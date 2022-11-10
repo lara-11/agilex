@@ -89,7 +89,7 @@ p.agile-powered-p {
   }
 
   div.agilex-powered-box1 {
-    padding: 40px 0px 20px 0px;
+    padding: 40px 30px 0px 30px;
   }
 
   div.agilex-powered-box2 {
@@ -99,17 +99,21 @@ p.agile-powered-p {
   h1.agilex-powered-h1 {
     text-align: left;
     max-width: 100%;
-    margin: 0px 100px 5px 100px;
+    margin: 0px 0px 5px 0px;
   }
 
   div.agilex-powered-line {
-    margin: 10px 400px 15px 100px;
+    margin: 10px 400px 15px 0px;
   }
 
   p.agile-powered-p {
     font-size: 15px;
     max-width: 100%;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  div.agilex-powered-box2 {
+    padding: 20px 30px 40px 30px;
   }
 
   iframe.agilex-powered-video {
@@ -530,7 +534,7 @@ i.arrow.right-2 {
 /* TABLET */
 @media only screen and (max-width: 1024px) {
   div.agilex-development-box1 {
-    padding: 0px 100px 40px 100px;
+    padding: 0px 80px 40px 80px;
   }
 
   img.agilex-development-img1 {
@@ -559,20 +563,23 @@ i.arrow.right-2 {
   }
 
   div.agilex-development-box2 {
-    padding: 40px 0px 15px 0px;
+    padding: 40px 25px 0px 25px;
   }
 
   h1.agilex-development-h1 {
-    margin: 0px 100px 0px 100px;
+    font-size: 55px;
+    margin: 0px 0px 5px 0px;
   }
 
   div.agilex-development-line {
     width: auto;
-    margin: 10px 495px 15px 100px;
+    margin: 10px 495px 15px 0px;
   }
 
   p.agilex-development-p {
-    margin: 0px 100px 10px 100px;
+    font-size: 15px;
+    max-width: 100%;
+    margin: 0px 0px 10px 0px;
   }
 
   ol#agilex-carousel-indicators1 {
@@ -677,7 +684,7 @@ div.agilex-source-box1 {
 h1.agilex-source-h1 {
   font-size: 62px;
   color: #1a272d;
-  max-width: 670px;
+  max-width: 740px;
 }
 
 div.agilex-source-line {
@@ -688,7 +695,7 @@ div.agilex-source-line {
 
 p.agilex-source-p {
   font-size: 23px;
-  max-width: 670px;
+  max-width: 740px;
 }
 
 div.agilex-source-links {
@@ -711,12 +718,16 @@ div.agilex-source-box2 {
 
 /* TABLET */
 @media only screen and (max-width: 1024px) {
+  div.agilex-flex-container5 {
+    flex-flow: wrap;
+  }
+
   div.agilex-source-box1 {
-    padding: 80px 0px 40px 80px;
+    padding: 30px 30px 20px 30px;
   }
 
   h1.agilex-source-h1 {
-    font-size: 34px;
+    font-size: 49px;
     margin: 0px 0px 0px 0px;
   }
 
@@ -735,21 +746,19 @@ div.agilex-source-box2 {
   }
 
   div.agilex-source-box2 {
-    padding: 60px 0px 60px 0px;
-    margin: 0px 80px 0px 0px;
+    padding: 10px 0px 40px 0px;
+    margin: 0px 30px 0px 30px;
+  }
+
+  figure.agilex-source-laptop-img {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 /* MOBILE */
 @media only screen and (max-width: 736px) {
-  div.agilex-flex-container5 {
-    flex-flow: wrap;
-  }
-
-  div.agilex-source-box1 {
-    padding: 30px 30px 20px 30px;
-  }
-
   h1.agilex-source-h1 {
     font-size: 38px;
     margin: 0px 0px 0px 0px;
@@ -762,11 +771,6 @@ div.agilex-source-box2 {
   p.agilex-source-p {
     font-size: 19px;
     margin: 0px 0px 0px 0px;
-  }
-
-  div.agilex-source-box2 {
-    padding: 10px 0px 40px 0px;
-    margin: 0px 30px 0px 30px;
   }
 }
 
@@ -844,33 +848,38 @@ a.agilex-kits-link {
     padding: 0px 0px 0px 0px;
   }
 
+  figure.agilex-kits-container {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   img.agilex-kits-img1 {
     width: 700px;
   }
 
   div.agilex-kits-box2 {
-    width: 951.3px;
-    padding: 40px 0px 0px 0px;
+    padding: 40px 25px 0px 25px;
   }
 
   h1.agilex-kits-h1 {
     font-size: 49px;
     text-align: left;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 0px 5px 0px;
   }
 
   div.agilex-kits-line {
     width: auto;
-    margin: 10px 420px 15px 100px;
+    margin: 10px 420px 15px 0px;
   }
 
   p.agilex-kits-p {
     font-size: 15px;
-    margin: 0px 100px 10px 100px;
+    margin: 0px 0px 10px 0px;
   }
 
   a.agilex-kits-link {
-    margin: 0px 100px 0px 100px;
+    margin: 0px 0px 0px 0px;
   }
 }
 
@@ -978,7 +987,7 @@ a.agilex-application-link {
 /* TABLET */
 @media only screen and (max-width: 1024px) {
   div.agilex-application-box1 {
-    padding: 40px 0px 20px 0px;
+    padding: 40px 25px 0px 25px;
   }
 
   img.agilex-application-img {
@@ -991,23 +1000,30 @@ a.agilex-application-link {
   }
 
   h1.agilex-application-h1 {
+    font-size: 45px;
     text-align: left;
     max-width: 100%;
-    margin: 0px 100px 5px 100px;
+    margin: 0px 0px 5px 0px;
   }
 
   div.agilex-application-line {
-    margin: 10px 400px 15px 100px;
+    margin: 10px 400px 15px 0px;
   }
 
   p.agile-application-p {
     font-size: 15px;
     max-width: 100%;
-    margin: 0px 100px 10px 100px;
+    margin: 0px 0px 10px 0px;
   }
 
   a.agilex-application-link {
-    margin: 0px 100px 0px 100px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  figure.agilex-application-container {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1047,7 +1063,8 @@ h1.agilex-drive-title-h1 {
   font-size: 60px;
   text-align: center;
   color: #1a272d;
-  padding-top: 50px;
+  margin-top: 10px;
+  padding-top: 40px;
 }
 
 div.agilex-drive-line {
@@ -1058,19 +1075,18 @@ div.agilex-drive-line {
 
 div.agilex-flex-container8 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-bottom: 10px;
 }
 
 div.agilex-drive-box1 {
-  width: 450px;
+  width: 295px;
   padding: 0px 0px 40px 0px;
-  margin-left: 120px;
+  margin: 0px 25px 0px 120px;
 }
 
 figure.agilex-drive-container1 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 img.agilex-drive-scout {
@@ -1081,23 +1097,22 @@ h1.agilex-drive1-h1 {
   font-size: 20px;
   text-align: center;
   color: #1a272d;
-  margin: 0px 40px 10px 40px;
+  margin: 0px 0px 10px 0px;
 }
 
 p.agilex-drive1-p {
   font-size: 14.5px;
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 div.agilex-drive-box2 {
-  width: 450px;
+  width: 295px;
   padding: 0px 0px 40px 0px;
+  margin: 0px 25px 0px 25px;
 }
 
 figure.agile-drive-container2 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 img.agilex-drive-scoutmini {
@@ -1109,23 +1124,22 @@ h1.agilex-drive2-h1 {
   text-align: center;
   font-size: 20px;
   color: #1a272d;
-  margin: 0px 40px 10px 40px;
+  margin: 0px 0px 10px 0px;
 }
 
 p.agilex-drive2-p {
   font-size: 14.5px;
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 div.agilex-drive-box3 {
-  width: 450px;
+  width: 295px;
   padding: 0px 0px 40px 0px;
+  margin: 0px 25px 0px 25px;
 }
 
 figure.agile-drive-container3 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 img.agilex-drive-bunker {
@@ -1136,24 +1150,22 @@ h1.agilex-drive3-h1 {
   text-align: center;
   font-size: 20px;
   color: #1a272d;
-  margin: 0px 40px 10px 40px;
+  margin: 0px 0px 10px 0px;
 }
 
 p.agilex-drive3-p {
   font-size: 14.5px;
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 div.agilex-drive-box4 {
-  width: 450px;
+  width: 295px;
   padding: 0px 0px 40px 0px;
-  margin-right: 120px;
+  margin: 0px 120px 0px 25px;
 }
 
 figure.agilex-drive-container4 {
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 img.agilex-drive-rangermini {
@@ -1165,13 +1177,12 @@ h1.agilex-drive4-h1 {
   text-align: center;
   font-size: 20px;
   color: #1a272d;
-  margin: 0px 40px 10px 40px;
+  margin: 0px 0px 10px 0px;
 }
 
 p.agilex-drive4-p {
   font-size: 14.5px;
   text-align: center;
-  margin: 0px 40px 0px 40px;
 }
 
 /* Fixes line issue */
@@ -1234,6 +1245,11 @@ p.agilex-drive4-p {
 
   h1.agilex-drive1-h1 {
     margin: 15px 0px 10px 0px;
+  }
+
+  div.agilex-drive-line {
+    margin-left: 300px;
+    margin-right: 300px;
   }
 
   p.agilex-drive1-p {
@@ -1441,7 +1457,11 @@ p.agilex-vslam-p {
 @media only screen and (max-width: 1024px) {
   div.agilex-vslam-box1 {
     margin-left: 0px;
-    padding: 20px 100px 40px 100px;
+    padding: 20px 30px 40px 30px;
+  }
+
+  figure.agilex-vslam-img {
+    max-width: 655px;
   }
 
   img.agilex-vslam-img1 {
@@ -1449,24 +1469,22 @@ p.agilex-vslam-p {
   }
 
   div.agilex-vslam-box2 {
-    width: 951.3px;
-    padding: 40px 0px 0px 0px;
+    padding: 40px 25px 0px 25px;
   }
 
   h1.agilex-vslam-h1 {
     font-size: 49px;
-    text-align: center;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 0px 0px 0px;
   }
 
   div.agilex-vslam-line {
     width: auto;
-    margin: 10px 420px 15px 100px;
+    margin: 10px 420px 15px 0px;
   }
 
   p.agilex-vslam-p {
     font-size: 15px;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 0px 0px 0px;
   }
 }
 
