@@ -58,6 +58,30 @@ p.agile-powered-p {
   text-align: justify;
 }
 
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+  div.agilex-flex-container2 {
+    flex-flow: wrap;
+  }
+
+  div.agilex-powered-box1 {
+    width: 700px;
+    padding: 40px 0px 0px 0px;
+  }
+
+  h1.agilex-powered-h1 {
+    max-width: 100%;
+  }
+
+  p.agile-powered-p {
+    max-width: 100%;
+  }
+
+  div.agilex-powered-box2 {
+    padding: 20px 50px 40px 50px;
+  }
+}
+
 /* TABLET */
 @media only screen and (max-width: 1024px) {
   div.agilex-flex-container2 {
@@ -237,6 +261,13 @@ p.agilex-supports3-p {
   font-size: 14.5px;
   text-align: center;
   margin: 0px 40px 0px 40px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+  div.agilex-supports-box1, div.agilex-supports-box2, div.agilex-supports-box3 {
+    padding-bottom: 40px;
+  }
 }
 
 /* TABLET */
@@ -471,12 +502,33 @@ i.arrow.right-2 {
   -webkit-transform: rotate(-45deg);
 }
 
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
   div.agilex-flex-container4 {
     flex-flow: wrap-reverse;
   }
 
+  div.agilex-development-box1 {
+    padding: 20px 50px 40px 50px;
+  }
+
+  h1.agilex-development-h1 {
+    max-width: 100%;
+    margin-top: 0px;
+  }
+
+  p.agilex-development-p {
+    max-width: 100%;
+  }
+
+  div.agilex-development-box2 {
+    width: 700px;
+    padding: 40px 0px 0px 0px;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
   div.agilex-development-box1 {
     padding: 0px 100px 40px 100px;
   }
@@ -650,6 +702,13 @@ div.agilex-source-box2 {
   padding: 50px 120px 60px 50px;
 }
 
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+  div.agilex-source-line {
+    margin-right: 80px;
+  }
+}
+
 /* TABLET */
 @media only screen and (max-width: 1024px) {
   div.agilex-source-box1 {
@@ -754,12 +813,32 @@ a.agilex-kits-link {
   color: #007cc4;
 }
 
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
   div.agilex-flex-container6 {
     flex-flow: wrap-reverse;
   }
 
+  div.agilex-kits-box1 {
+    padding: 20px 50px 40px 50px;
+  }
+
+  h1.agilex-kits-h1 {
+    max-width: 100%;
+  }
+
+  p.agilex-kits-p {
+    max-width: 100%;
+  }
+
+  div.agilex-kits-box2 {
+    width: 700px;
+    padding: 40px 0px 0px 0px;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
   div.agilex-kits-box1 {
     margin-left: 0px;
     padding: 0px 0px 0px 0px;
@@ -872,12 +951,32 @@ a.agilex-application-link {
   color: #007cc4;
 }
 
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
   div.agilex-flex-container7 {
     flex-flow: wrap;
   }
 
+  div.agilex-application-box1 {
+    width: 700px;
+    padding: 40px 0px 0px 0px;
+  }
+
+  h1.agilex-application-h1 {
+    max-width: 100%;
+  }
+
+  p.agile-application-p  {
+      max-width: 100%;
+  }
+
+  div.agilex-application-box2{
+    padding: 20px 50px 40px 50px;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
   div.agilex-application-box1 {
     padding: 40px 0px 20px 0px;
   }
@@ -1096,11 +1195,32 @@ p.agilex-drive4-p {
   }
 }
 
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
+  h1.agilex-drive-title-h1 {
+    margin-top: 0px;
+    padding-top: 40px;
+  }
+
+  div.agilex-drive-line {
+    margin-left: 450px;
+    margin-right: 450px;
+  }
+
+  div.agilex-drive-box1 {
+    margin-left: 80px;
+  }
+
+  div.agilex-drive-box4 {
+    margin-right: 80px;
+  }
+}
+
 /* TABLET */
 @media only screen and (max-width: 1024px) {
   div.agilex-drive-box1 {
     padding: 0px 0px 40px 0px;
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 50px;
   }
 
   h1.agilex-drive-title-h1 {
@@ -1158,7 +1278,7 @@ p.agilex-drive4-p {
   }
 
   div.agilex-drive-box4 {
-    margin-right: 80px;
+    margin-right: 50px;
     padding: 0px 0px 40px 0px;
   }
 
@@ -1292,12 +1412,33 @@ p.agilex-vslam-p {
   text-align: justify;
 }
 
-/* TABLET */
-@media only screen and (max-width: 1024px) {
+/* RESPONSIVE */
+@media only screen and (max-width: 1250px) {
   div.agilex-flex-container9 {
     flex-flow: wrap-reverse;
   }
 
+  div.agilex-vslam-box2 {
+    width: 700px;
+    padding: 40px 0px 0px 0px;
+  }
+
+  div.agilex-vslam-box1 {
+    padding: 20px 50px 40px 50px;
+  }
+
+  h1.agilex-vslam-h1 {
+    max-width: 100%;
+    margin-top: 0px;
+  }
+
+  p.agilex-vslam-p {
+    max-width: 100%;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
   div.agilex-vslam-box1 {
     margin-left: 0px;
     padding: 20px 100px 40px 100px;
