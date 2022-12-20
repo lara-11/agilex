@@ -436,7 +436,9 @@
 
   p.agilex-img1-text {
       text-align: center;
-      margin-top: 20px;
+      color: black;
+      background-color: #e2f2fb;
+      padding-top: 20px;
       margin-bottom: 0px;
   }
 
@@ -448,7 +450,9 @@
 
   p.agilex-img2-text {
       text-align: center;
-      margin-top: 20px;
+      color: black;
+      background-color: #e2f2fb;
+      padding-top: 20px;
       margin-bottom: 0px;
   }
 
@@ -459,9 +463,11 @@
   }
 
   p.agilex-img3-text {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 0px;
+    text-align: center;
+    color: black;
+    background-color: #e2f2fb;
+    padding-top: 20px;
+    margin-bottom: 0px;
   }
 
   img.agilex-development-img4 {
@@ -471,9 +477,11 @@
   }
 
   p.agilex-img4-text {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 0px;
+    text-align: center;
+    color: black;
+    background-color: #e2f2fb;
+    padding-top: 20px;
+    margin-bottom: 0px;
   }
 
   div.agilex-development-box2 {
@@ -1724,6 +1732,10 @@ position: relative;
   img.agilex-models-img-2 {
       display: none;
   }
+
+  img.agilex-models-img-all {
+    background-color: white;
+}
 
   /* TABLET */
   /* Change names here on bottom */
