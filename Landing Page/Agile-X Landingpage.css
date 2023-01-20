@@ -787,7 +787,7 @@ figure.agilex-video2 {
   /* MOBILE */
   @media only screen and (max-width: 736px) {
     div.agilex-kits-box1 {
-      margin-left: 0px;
+      margin-left: 0px; 
       padding: 0px 10px 5px 10px;
     }
   

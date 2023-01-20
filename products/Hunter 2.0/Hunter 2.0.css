@@ -1,0 +1,106 @@
+/* HUNTER 2.0 */
+div.hunter-2-grey-box {
+    margin: 0px 35px 20px 35px;
+}
+
+p.hunter-description {
+    margin: 0px 35px 20px 35px;
+}
+
+div.hunter-2-banner-home {
+    margin: 0px 35px 0px 35px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+    div.hunter-2-grey-box {
+        margin: 0px 0px 20px 0px;
+    }
+
+    p.hunter-description {
+        margin: 0px 0px 20px 0px;
+    }
+
+    div.hunter-2-banner-home {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+
+
+
+ 
+/* HUNTER 2.0 CUSTOM */
+div.hunter2_flex {
+    display: flex;
+    justify-content: center;
+    margin: 0px 35px 0px 35px;
+}
+
+
+/* This will edit the battery section */
+div.battery_section {
+    display: flex;
+}
+
+/* This will edit the BMS section */
+div.bms_section {
+    display: flex;
+}
+
+/* This will edit the lightning section */
+div.lightning_section {
+    display: flex;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1200px) {
+    div.hunter2_flex {
+        flex-flow: wrap;
+    }
+}
+
+/* This is the mobile version */
+@media (max-width: 667px) {
+
+    /* This makes the whole section mobile frinedly */
+    div.hunter2_flex {
+        display: block;
+        justify-content: center;
+        text-align: left;
+        margin: 0px 0px 0px 0px;
+    }
+
+    p.hunter-description {
+        font-size: 13.5px;
+    }
+
+    p.hunter-battery {
+        font-size: 13.5px;
+    }
+
+    p.hunter-bms {
+        font-size: 13.5px;
+    }
+
+    p.hunter-lightning {
+        font-size: 13.5px;
+    }
+
+    p.title-text1 {
+        font-size: 13.5px;
+    }
+
+    p.title-text2 {
+        font-size: 13.5px;
+    }
+
+    p.title-text3 {
+        font-size: 13.5px;
+    }
+}
+
+/* This will edit the check section */
+div.check_section {
+    display: flex;
+}
