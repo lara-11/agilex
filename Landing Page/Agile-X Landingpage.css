@@ -1600,9 +1600,8 @@ position: relative;
       background: #444;
   }
 
-  .active {
-    color: #fff;
-    background: white;
+  div.item.active {
+    background-color: white;;
   }
 
   /* This is the box that makes the arrows function */
