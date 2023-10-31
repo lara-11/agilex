@@ -1,0 +1,140 @@
+/* LIMO Pro*/
+p.limo-grey-box {
+  margin: 0px 35px 20px 35px;
+}
+
+div.limo-banner-home {
+  margin: 0px 35px 0px 35px;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 736px) {
+  div.tracer-prev-text {
+    margin: 0px 0px 20px 0px;
+  }
+
+  div.limo-banner-home {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+
+/* LIMO CUSTOM */
+div.limo-flex {
+  display: flex;
+  justify-content: center;
+  margin: 35px 35px 0px 35px;
+}
+
+div.limo-box1 {
+  width: 800px;
+  max-width: 100%;
+  margin-right: 60px;
+  margin-top: 55px;
+}
+
+h1.limo-header {
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+p.limo-info {
+  text-align: justify;
+}
+
+div.limo-box2 {
+  width: 800px;
+  max-width: 100%;
+}
+
+figure.limo-img {
+  width: 100%;
+  max-width: 820px;
+}
+
+/* LIMO Body Content */
+div.limo-body-content {
+  display: flex;
+}
+
+div.limo-left-features {
+  flex: 1.6;
+}
+
+div.limo-right-features {
+  flex: 1.09;
+  margin: auto;
+}
+
+div.four-steering-modes, div.scalable-structure, div.powerful-motor {
+  margin: 0px 35px 20px 35px;
+}
+
+@media only screen and (max-width: 1419px) {
+  div.limo-box1 {
+    margin-top: 0px;
+  }
+
+  h1.limo-header {
+    margin-top: 0px;
+  }
+}
+
+/* Body section edits */
+@media only screen and (max-width: 1199px) {
+  div.limo-right-features {
+    flex: 1.15;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  div.limo-body-content {
+    display: block;
+  }
+
+  div.limo-right-features {
+    display: flex;
+  }
+
+  div.four-steering-modes, div.scalable-structure, div.powerful-motor {
+    margin: 0px 20px 20px 20px;
+  }
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+  div.limo-flex {
+    flex-flow: wrap;
+  }
+
+  h1.limo-header {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  div.limo-box1 {
+    margin-right: 0px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 667px) {
+  div.limo-flex {
+    display: block;
+    justify-content: center;
+    text-align: left;
+  }
+
+  h1.limo-header {
+    text-align: center;
+    font-size: 34px;
+  }
+
+  p.limo-info {
+    font-size: 13.5px;
+  }
+
+  div.four-steering-modes, div.scalable-structure, div.powerful-motor {
+    margin: 0px 10px 10px 10px;
+  }
+}
